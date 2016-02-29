@@ -1,0 +1,84 @@
+<html>
+    <body>
+        <title> Web Store </title>
+        <head>
+        <p class="header">
+            Welcome to the late night fast food Web Store. <br></br>
+         We sell only the lowest quality menu items in the city with outrageous shipping costs, guaranteed. A special thanks to our corporate partners for cooking such increibly distasteful food for our loyal customers.
+         </p>
+         <link href="style.css"
+                rel="stylesheet"
+                type="text/css"/>
+         </head>
+        <p>
+        
+        
+        <p>
+        Please login and make your order below. 
+        </p>
+        <br></br>
+        
+        <form action="customerBackend.php" method="post" onsubmit="return getCredentials();">
+        
+            
+            <p>Email: (e.g. donald_trump@whitehouse.gov)</p>
+
+            <input id="email" name="email">
+        
+            <p>Password:</p>
+        
+            <input type ="PASSWORD" id="password" name="password">
+
+            <p class=error id="msg"></p>
+            
+            
+            <br><br>
+            
+            <image src="lab4_ex3_images/tb1.jpg" height=200 width=200>
+            <br>
+            Taco Bell: Beefy 5 layer baja blast soggy taco: $3.99
+            <br>
+            <input type="number" name="tb1" id="tb" min="0" max="100">
+            
+            <br></br>
+            <br></br>
+            
+            <image src="lab4_ex3_images/mc1.jpg" height=200 width=200>
+            <br>
+            McDonalds: Recycled cheese burger, floor-dropped: $2.49
+            <br>
+            <input type="number" name="mc1" id="mc" min="0" max="100">
+            
+            
+            <br></br>
+            <br></br>
+            
+            <image src="lab4_ex3_images/bk1.jpg" height=200 width=200>
+            <br>
+            Burger King: 60 piece blubber nuggets with msg sauce: $1.49
+            <br>
+            <input type="number" name="bk1" id="bk" min="0" max="100">
+            
+            <br></br>
+            <br></br>
+            
+            Please choose a shipping option: <br>
+            <input type="radio" name="ship" id="ship" value="0.00 Free"> Free 7 Day <br>
+            <input type="radio" name="ship" id="ship" value="50.00 Overnight"> $50.00 Overnight <br>
+            <input type="radio" name="ship" id="ship" value="5.00 Three Day"> $5.00 3 day <br>
+            <br>
+            <p class=error id="msg2"></p>
+            
+            
+            
+            <button type="reset" value="Reset">Reset</button>
+        
+            <input type="submit">
+            
+        </form>
+        
+        <script type="text/javascript"
+                src="formChecker.js"></script>
+        
+    </body>
+</html> 

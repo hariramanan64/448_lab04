@@ -1,0 +1,28 @@
+p
+{
+    font-family: bold;
+    font-size: 14pt;
+}
+
+p.header
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20pt;
+}
+
+p.error
+{
+    color: red;
+}
+
+body
+{
+    background-color: linen;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+form 
+{
+    color: #09C;
+    font-family: Tahoma, Geneva, sans-serif;
+}
